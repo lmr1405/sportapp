@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomNav"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/iconHome"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:src="@drawable/baseline_home_24"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/desc_icon_home" />
+
+    <ImageView
+        android:id="@+id/iconTrophy"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:src="@drawable/baseline_emoji_events_24"
+        android:tint="@color/text_white"
+        android:contentDescription="@string/desc_icon_trophy" />
+
+    <ImageView
+        android:id="@+id/iconTraining"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:src="@drawable/baseline_fitness_center_24"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/desc_icon_training" />
+
+    <ImageView
+        android:id="@+id/iconMenu"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="1"
+        android:src="@drawable/baseline_dehaze_24"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/desc_icon_menu" />
+</LinearLayout>

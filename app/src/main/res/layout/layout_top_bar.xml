@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="@android:color/black">
+
+    <!-- Ícono perfil -->
+    <ImageView
+        android:id="@+id/iconProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/avatar"
+        android:contentDescription="@string/desc_profile"
+        android:padding="4dp" />
+
+    <!-- Texto centrado -->
+    <TextView
+        android:id="@+id/topBarTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Pantalla"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Ícono ayuda -->
+    <ImageView
+        android:id="@+id/iconHelp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/baseline_help_24"
+        android:tint="@android:color/white"
+    android:contentDescription="@string/desc_help" />
+
+    <!-- Ícono notificación -->
+    <ImageView
+        android:id="@+id/iconNotifications"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_notifications_24"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/desc_notifications" />
+
+</LinearLayout>

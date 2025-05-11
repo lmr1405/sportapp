@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">SportApp</string>
+    <string name="login_text">Iniciar sesión</string>
+    <string name="register_text">Crear cuenta</string>
+    <string name="bg_image_desc">Background image of a woman lifting weights</string>
+    <string name="forgot_passwrd">¿Has olvidado tu contraseña?</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="follow">Siguiente</string>
+    <string name="terminos_subrayado"><u>Términos de uso</u></string>
+
+    <string name="desc_icon_home">Icono de inicio</string>
+    <string name="desc_icon_trophy">Icono de logros</string>
+    <string name="desc_icon_training">Icono de entrenamiento</string>
+    <string name="desc_icon_menu">Icono del menú</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Descripciones de accesibilidad -->
+    <string name="desc_profile">Icono de perfil</string>
+    <string name="desc_help">Ayuda</string>
+    <string name="desc_notifications">Notificaciones</string>
+
+    <!-- Títulos para distintas pantallas -->
+    <string name="title_home">Inicio</string>
+    <string name="title_training">Entrenamiento</string>
+    <string name="title_achievements">Logros</string>
+    <string name="title_menu">Menú</string>
+    <string name="title_profile">Perfil</string>
+
+    <string name="desc_entrenamiento_card">Resumen de entrenamiento full body</string>
+    <string name="desc_entrenamiento_detalle">Detalle del entrenamiento full body</string>
+    <string name="title_mis_entrenamientos">Mis entrenamientos</string>
+    <string name="title_previsualizacion">Previsualización</string>
+
+    <string name="text_resu">Este es tu resumen más reciente:</string>
+    <string name="text_resu_sem">Resumen semanal</string>
+    <string name="hola_user">Hola Luis</string>
+    <string name="desc_trophies_screen">Pantalla con los trofeos obtenidos</string>
+    <string name="title_trophies">Premios</string>
+
+    <string name="btn_planificar">Planificar entrenamiento</string>
+    <string name="title_plan">Planificación</string>
+    <string name="btn_visualizar">Visualizar planificación</string>
+    <string name="btn_historial">Historial de entrenamiento</string>
+    <string name="btn_iniciar">Iniciar entrenamiento</string>
+    <string name="desc_training_center">Imagen central de entrenamiento</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="text_no_notifications">No hay notificaciones que mostrar.\nVuelve más tarde para ver las nuevas notificaciones</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="centro_de_asistencia">Centro de asistencia</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="acerca_de">Acerca de:</string>
+    <string name="quiero_darme_de_baja">Quiero darme de baja</string>
+    <string name="r_r_s_s">R R S S</string>
+    <string name="preguntas_frecuentes_faq">Preguntas Frecuentes (FAQ)</string>
+    <string name="servicio_tecnico">Servicio técnico</string>
+    <string name="primeros_pasos">Primeros pasos</string>
+    <string name="text_contact_tec">Puede ponerse en contacto al teléfono de soporte técnico +34 123 456 789\n\nTambién puede hacerlo a través de nuestra dirección de correo: soporte_tecnico@sportapp.com\n\nIndicando:\n\tun teléfono de contacto\n\tuna dirección de correo electrónico\n\nIntentaremos resolver su problema en la mayor brevedad posible</string>
+
+
+    <string name="pregunta_1">¿Cómo crear una cuenta?</string>
+    <string name="pregunta_2">No puedo iniciar sesión</string>
+    <string name="pregunta_3">¿Cómo cambiar mi foto de perfil?</string>
+    <string name="pregunta_4">¿Cómo se usa la aplicación?</string>
+    <string name="pregunta_5">¿Cómo son los trofeos?</string>
+    <string name="pregunta_6">¿Cómo contacto con el servicio técnico?</string>
+
+    <string name="text_sesion_creada">Sesiones creadas</string>
+    <string name="cd_eliminar">Eliminar sesión</string>
+    <string name="icon_edit">editar</string>
+    <string name="ex_training">Tren inferior: Duración 30min</string>
+    <string name="ex_training2">Entrenamiento full body</string>
+    <string name="icon_check">check</string>
+    <string name="text_misPlanificaciones">Mis Planificaciones</string>
+    <string name="text_misEntrenamientos">Mis entrenamientos</string>
+    <string name="icon_eye">visualizar</string>
+    <string name="text_history">Historial</string>
+    <string name="calentamiento_10_min">Calentamiento 10 min</string>
+    <string name="sentadilla_4_series_10_rep">Sentadilla       4 series     10 rep</string>
+    <string name="flexiones_4_series_10_rep">Flexiones         4 series     10 rep</string>
+    <string name="dominadas_4_series_10_rep">Dominadas         4 series     10 rep</string>
+    <string name="abdominales_4_series_10_rep">Abdominales     4 series     10 rep</string>
+    <string name="enfriamiento_10_min">Enfriamiento 10 min</string>
+    <string name="previsualizacion">Previsualización</string>
+    <string name="empezar">Empezar</string>
+    <string name="peso">Peso</string>
+    <string name="elige_el_ejercicio">Elige el ejercicio</string>
+    <string name="cronometro">00 : 00</string>
+    <string name="series">Series</string>
+    <string name="repeticion">Repetición</string>
+    <string name="peso_corporal">peso corporal</string>
+    <string name="text_trofeo1">Ganaste un trofeo al completar un entrenamiento de fuerza</string>
+    <string name="text_trofeo2">Ganaste el trofeo tras completar 5 entrenamientos en una semana</string>
+    <string name="text_trofeo3">Ganaste el trofeo tras completar 25 entrenamientos en un mes</string>
+
+
+</resources>

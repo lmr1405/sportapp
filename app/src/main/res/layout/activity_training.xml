@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/training"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".training.TrainingActivity">
+
+    <!-- Barra superior -->
+    <include
+        android:id="@+id/topBarInclude"
+        layout="@layout/layout_top_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Imagen central -->
+    <ImageView
+        android:id="@+id/trainingImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/desc_training_center"
+        app:layout_constraintTop_toBottomOf="@id/topBarInclude"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnPlanificar"
+        style="@style/TrainingButtonStyle"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn_planificar"
+        android:textSize="23sp"
+        app:drawableEndCompat="@drawable/baseline_edit_24"
+        app:drawableTint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/trainingImage" />
+
+    <Button
+        android:id="@+id/btnVisualizar"
+        style="@style/TrainingButtonStyle"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/gray"
+        android:text="@string/btn_visualizar"
+        android:textSize="23sp"
+        app:drawableEndCompat="@drawable/baseline_remove_red_eye_24"
+        app:drawableTint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnPlanificar" />
+
+    <Button
+        android:id="@+id/btnHistorial"
+        style="@style/TrainingButtonStyle"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/btn_historial"
+        android:textSize="23sp"
+        app:drawableEndCompat="@drawable/baseline_insights_24"
+        app:drawableTint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnVisualizar" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        style="@style/TrainingButtonStyle"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/green"
+        android:text="@string/btn_iniciar"
+        android:textSize="23sp"
+        app:drawableEndCompat="@drawable/baseline_play_arrow_24"
+        app:drawableTint="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHistorial" />
+
+    <FrameLayout
+        android:id="@+id/bottomNavWrapper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <include layout="@layout/layout_bottom_nav" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
